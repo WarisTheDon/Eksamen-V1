@@ -1264,9 +1264,9 @@ section  img:hover {
 
 .PilUp {
     position: fixed;
-    bottom: 0;
+    
     right: 11px;
-    bottom: 50px;
+    bottom: 300px;
     width: 50px;
     height: 60px;
     border-radius: 10%;
