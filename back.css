@@ -308,8 +308,8 @@ text-align: center;
 }}
 
 .box1 img {
-    max-width: 100%; /* Sørger for at bildet ikke overstiger bredden av containeren */
-    height: auto; /* Beholder bildets sideforhold */
+    max-width: 100%; 
+    height: auto; 
     margin-top: -60px;
 }
 
@@ -385,7 +385,7 @@ text-align: center;
     top: -273px;
     width: 50%;
     left: 40%;
-    transform: translateX(-70%); /* Sentrer elementet horisontalt */
+    transform: translateX(-70%); 
     max-width: 100%;
     margin: 0 auto;
     padding: 0 20px;
@@ -677,7 +677,7 @@ top: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 220px; /* Bruk prosentandel av forelderens bredde */
+    width: 220px; 
     height: 40px;
     
     transform: translateX(-37%);
@@ -692,15 +692,15 @@ top: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px; /* Bruk prosentandel av forelderens bredde */
+    width: 200px; 
     height: 44px;
     background-color: #e6bd43;
-    left: 60%; /* Juster posisjonen med prosentandel */
+    left: 60%; 
     transform: translateX(-50%);
     color: rgb(0, 0, 0);
     top: 81px;
     border: 2px solid rgba(0, 0, 0, 0);
-    margin-left: 1%; /* Bruk prosentandel av forelderens bredde for marginen */
+    margin-left: 1%; 
 }
 
 .buttonNews:hover{
@@ -1112,7 +1112,7 @@ p{
     top: 650px;
     height: 600px;
     width: 700px;
-    text-align: center; /* Fjern "top: 500px;" */
+    text-align: center; 
 }
 
 .img79 a {
@@ -1123,7 +1123,7 @@ p{
 .img79 span {
     display: block;
     margin: 0 auto;
-    text-align: center; /* Legg til denne linjen for å sentrere teksten horisontalt */
+    text-align: center; 
 }
 
 .tekst11{
@@ -1177,34 +1177,34 @@ p{
 
     }
 
-/* Generelle stiler for hovedseksjonen */
+
 .main-section {
     position: relative;
     display: block;
     top: 700px;
     font-family: 'Archivo Black', sans-serif;
-    text-align: center; /* Justerer senterinnholdet horisontalt */
+    text-align: center; 
 }
 
-/* Stiler for beholderen av artiklene */
+
 .image-container {
     display: flex;
     justify-content: space-between;
     margin-top: 400px;
-    margin: 40px ; /* Økt bunnmargen for å flytte bildene lenger ned (juster etter behov) */
+    margin: 40px ; 
 }
 
 
-/* Stiler for hver artikkel */
+
 .SecondArticel {
-    flex: 0 0 auto; /* Gjør artiklene til blokk-elementer ved siden av hverandre */
-    width: calc(33.333% - 20px); /* Beregner bredden for hver artikkel med mellomrom (juster etter behov) */
+    flex: 0 0 auto; 
+    width: calc(33.333% - 20px); 
 }
 
-/* Stiler for bildet i hver artikkel */
+
 .SecondArticel a img {
-    display: block; /* Gjør bildet til et blokk-element for enkel justering */
-    width: 100%; /* Fyller hele bredden av foreldrelementet (artikkelen) */
+    display: block; 
+    width: 100%; 
 }
 
 
@@ -1216,21 +1216,21 @@ p{
     font-family: 'Archivo Black', sans-serif;
 }
 
-/* Stiler for beholderen av artiklene */
+
 .image-container-2 {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
 }
 
-/* Stiler for hver artikkel */
+
 .second-article-2,
 .second-article {
-    flex: 1; /* Gjør artiklene like store ved å gi dem samme fleksibilitet */
-    margin: 0 10px; /* Legger til mellomrom mellom artiklene (juster etter behov) */
+    flex: 1; 
+    margin: 0 10px; 
 }
 
-/* Stiler for bildet i hver artikkel */
+
 .second-article-2 a img,
 .second-article a img {
     display: block;
@@ -1249,12 +1249,12 @@ p{
     
     }
 
-   /* Generell hover-effekt for bilder i alle section-elementer */
+  
 section  img:hover {
-    transform: scale(1.03); /* Juster etter ønske (1.1 betyr 110% av originalstørrelsen) */
-    opacity: 0.7; /* Legg til andre stiler etter behov */
-    /* Legg til overgang for en jevn effekt */
-    transition: transform 0.5s ease-in-out; /* Juster etter ønske */
+    transform: scale(1.03); 
+    opacity: 0.7; 
+    
+    transition: transform 0.5s ease-in-out; 
 }
 .Katogorier:hover{
     background-color: #000;
@@ -1270,7 +1270,7 @@ section  img:hover {
     width: 50px;
     height: 60px;
     border-radius: 10%;
-    /* Legg til andre stiler etter behov */
+    
 }
 
 .ikkebilde img{
@@ -1359,7 +1359,7 @@ font-size: larger;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center; /* Sentrerer elementene vertikalt */
+        justify-content: center; 
         text-align: center;
         top: 5vw;
         padding-bottom: 5vw;
@@ -1525,7 +1525,7 @@ font-size: larger;
 .inputeText3 textarea {
     height: 300px;
     width: 400px;
-    resize: both; /* Allow vertical and horizontal resizing */
+    resize: both; 
 }
 
 .inputeText3 h2{
@@ -1565,7 +1565,7 @@ font-size: larger;
 
 
 .Contact h2 p {
-    font-family:sans-serif; /* You can replace this with your desired font styles */
+    font-family:sans-serif; 
    font-size: small;
    width: 400px;
     max-width: 500px;
